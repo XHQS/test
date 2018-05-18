@@ -11,14 +11,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tabtenn1.h" />
+    <ClInclude Include="port.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tabtenn1.cpp" />
-    <ClCompile Include="usett1.cpp" />
+    <ClCompile Include="port.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C0A6CD0-98DD-4706-888C-0CC1BCBA903A}</ProjectGuid>
+    <ProjectGuid>{C6746A90-71A0-4F00-B083-C869685DB08A}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -51,7 +50,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalOptions>/D "_CRT_SECURE_NO_DEPRECATE" %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /D "_CRT_SECURE_NO_DEPRECATE" %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
